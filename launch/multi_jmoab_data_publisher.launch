@@ -1,0 +1,21 @@
+<launch>
+   <group ns="group1">
+    <arg name="ns" value="robot1" />
+    <arg name="id" value="1" />
+    <node pkg="webrtc_telemetry" name="jmoab_data_publisher_node" type="jmoab_data_publisher.py" args="--ns $(arg ns) --id $(arg id)" output="screen" />
+  </group>
+
+  <group ns="group2">
+    <arg name="ns" value="robot2" />
+    <arg name="id" value="2" />
+    <node pkg="webrtc_telemetry" name="jmoab_data_publisher_node" type="jmoab_data_publisher.py" args="--ns $(arg ns) --id $(arg id)" output="screen" />
+  </group>
+
+  <group ns="group3">
+    <arg name="ns" value="robot3" />
+    <arg name="id" value="3" />
+    <node pkg="webrtc_telemetry" name="jmoab_data_publisher_node" type="jmoab_data_publisher.py" args="--ns $(arg ns) --id $(arg id)" output="screen" />
+  </group>
+
+
+</launch>

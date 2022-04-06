@@ -1,0 +1,1 @@
+{"telemetry": {"pos": {"lat": 36.2213993, "lon": 139.9300491, "alt": 0.0}, "att": {"roll": 1.5, "pitch": -2.25, "yaw": 290.23}, "dist": {"travelled": 134.35, "toHome": 0.0, "toNextWp": 5.6}, "speed": {"air": 0.01, "ground": 0.01}, "nav": {"nextWp": 6, "eta": []}, "mode": "MAN", "gps": "3D", "batt": {"volt": 0.0, "current": 0.0}}, "id": 2}
